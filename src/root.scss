@@ -1,0 +1,29 @@
+//цвета кнопок
+$btn-light-blue: #5C59FD;
+$btn-dark-blue: #4845E9;
+$btn-blue-opacity:rgba(92, 89, 253);
+$btn-white-color: #ffffff;
+$btn-white-focus: #f0f2f5;
+$btn-green-color: #44be72;
+$btn-red-color: #e3605f;
+$btn-disabled: #f0f2f5;
+//цвета текста
+$text-dark-blue: #0d003b;
+$text-white-color: #ffffff;
+
+//инпут
+$input-red-border: rgba(227, 96, 95, 1);
+$input-green-border: rgba(68, 190, 114, 1);
+
+//основные
+$light-blue-color: rgba(92, 89, 253, 1);
+$dark-blue-color: rgba(13, 0, 59, 1);
+$sea-white-color: rgba(236, 247, 255, 1);
+$white-color: #ffffff;
+$keyboard-color: rgba(241, 243, 243, 1);
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('/public/fonts/Inter_24pt-Bold.ttf');
+    font-weight: 500;
+}

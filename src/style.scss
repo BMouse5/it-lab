@@ -1,0 +1,53 @@
+@use 'root' as *;
+*, *::after, *::before {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: $dark-blue-color;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+
+}
+
+input[type="text"] {
+    border: 2px solid transparent;
+    padding: 25px;
+    outline: none;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: $text-dark-blue;
+    opacity: 50%;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    color: $light-blue-color;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+}
